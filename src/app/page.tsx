@@ -1,4 +1,3 @@
-import { SUITE_AUDIO_SRC, SWEET_AUDIO_SRC } from '@/app/constants';
 import WordCard from '@/app/WordCard';
 import Image from 'next/image';
 
@@ -12,12 +11,12 @@ const Home = () => (
         <WordCard
           word="suite"
           pronunciation="/swiːt/"
-          audioSrc={SUITE_AUDIO_SRC}
+          audioSrc="/suite_sweet_pronunciation.mp3"
         />
         <WordCard
           word="sweet"
           pronunciation="/swiːt/"
-          audioSrc={SWEET_AUDIO_SRC}
+          audioSrc="/suite_sweet_pronunciation.mp3"
         />
       </div>
     </main>
@@ -43,7 +42,7 @@ const Home = () => (
       <p className="mt-4 text-center text-sm">
         Favicon by{' '}
         <a
-          className="text-blue-500"
+          className="text-blue-600"
           href="https://www.flaticon.com/free-icons/ice-cream"
           title="ice-cream favicon"
           target="_blank"
