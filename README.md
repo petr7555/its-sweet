@@ -1,6 +1,6 @@
 # It's pronounced "sweet"
 
-See the app deployed [here](https://its-sweet.vercel.app/).
+See it deployed [here](https://its-sweet.vercel.app/).
 
 ## How to run
 
