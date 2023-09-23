@@ -23,7 +23,7 @@ const Home = () => (
     </main>
     <footer className="flex flex-col items-center justify-center p-4">
       <p className="text-center text-xl font-semibold">
-        Read more about the project on:
+        Read more about this project on:
       </p>
       <a
         className="mt-2 flex items-center justify-center gap-2"
