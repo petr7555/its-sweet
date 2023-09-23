@@ -5,9 +5,9 @@ import Image from 'next/image';
 const Home = () => (
   <>
     <main className="flex flex-col items-center justify-center p-10 md:p-24">
-      <p className="text-center text-5xl font-semibold md:pb-4 md:text-6xl">
+      <h1 className="text-center text-5xl font-semibold md:pb-4 md:text-6xl">
         It&apos;s pronounced &quot;sweet&quot;
-      </p>
+      </h1>
       <div className="mt-8 flex flex-col items-center justify-center gap-8 md:flex-row md:gap-14">
         <WordCard
           word="suite"
@@ -33,7 +33,7 @@ const Home = () => (
       >
         <Image
           src="/github_mark.svg"
-          alt="GitHub icon"
+          alt="GitHub logo"
           width={30}
           height={30}
           priority
@@ -43,9 +43,11 @@ const Home = () => (
       <p className="mt-4 text-center text-sm">
         Favicon by{' '}
         <a
+          className="text-blue-500"
           href="https://www.flaticon.com/free-icons/ice-cream"
           title="ice-cream favicon"
-          className="text-blue-500"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Freepik - Flaticon
         </a>
