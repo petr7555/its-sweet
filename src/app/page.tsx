@@ -30,12 +30,9 @@ const Home = () => (
                     />
                     <p className="text-xl font-semibold">GitHub</p>
                 </a>
-                <p className="text-sm font-semibold text-center mt-4">
-
-                    Favicon by <a href="https://www.flaticon.com/free-icons/ice-cream" title="ice-cream favicon"
-                                  className="text-blue-500">Freepik
-                    - Flaticon</a>
-                </p>
+                <p className="text-sm text-center mt-4">Favicon by <a
+                    href="https://www.flaticon.com/free-icons/ice-cream" title="ice-cream favicon"
+                    className="text-blue-500">Freepik - Flaticon</a></p>
             </div>
         </footer>
     </>
