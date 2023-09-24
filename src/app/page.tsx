@@ -29,6 +29,7 @@ const Home = () => (
         href="https://github.com/petr7555/its-sweet#about-the-project"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Read more about this project on GitHub"
       >
         <Image
           src="/github_mark.svg"
@@ -44,7 +45,7 @@ const Home = () => (
         <a
           className="text-blue-600"
           href="https://www.flaticon.com/free-icons/ice-cream"
-          title="ice-cream favicon"
+          aria-label="Favicon source"
           target="_blank"
           rel="noopener noreferrer"
         >
