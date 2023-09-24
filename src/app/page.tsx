@@ -43,7 +43,7 @@ const Home = () => (
       <p className="mt-4 text-center text-sm">
         Favicon by{' '}
         <a
-          className="text-blue-600"
+          className="text-blue-800"
           href="https://www.flaticon.com/free-icons/ice-cream"
           aria-label="Favicon source"
           target="_blank"
