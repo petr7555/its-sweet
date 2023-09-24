@@ -22,11 +22,11 @@ const WordCard: FC<Props> = ({ word, pronunciation, audioSrc }) => {
       <button
         className="mt-4 cursor-pointer transition-opacity hover:opacity-50"
         onClick={() => play()}
-        aria-label="Listen to pronunciation"
+        aria-label={`Listen to pronunciation of the word ${word}`}
       >
         <Image
           src="/speaker_icon.svg"
-          alt="Listen to pronunciation"
+          alt="Speaker icon"
           width={30}
           height={30}
           priority
