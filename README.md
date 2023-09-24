@@ -23,4 +23,4 @@ In particular, it is not pronounced as:
 https://github.com/petr7555/its-sweet/assets/9914762/a1f1ce58-9c79-4227-9ab5-b790a94e22f7
 
 Creating this website fights this problem which permeates the Czech developers' society, and it is an excellent excuse
-for me to have a little fun with Next.js, Tailwind CSS and Web Audio API.
+for me to have a little fun with Next.js, Tailwind CSS, Web Audio API and focus on accessibility best practices.
