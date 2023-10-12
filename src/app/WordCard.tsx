@@ -16,7 +16,7 @@ const WordCard: FC<Props> = ({ word, pronunciation, audioSrc }) => {
   });
 
   return (
-    <div className="flex w-48 flex-col items-center justify-center rounded-xl bg-gradient-to-br from-cyan-300 to-blue-300 p-4 shadow-xl">
+    <div data-cy="word-card" className="flex w-48 flex-col items-center justify-center rounded-xl bg-gradient-to-br from-cyan-300 to-blue-300 p-4 shadow-xl">
       <p className="text-4xl font-semibold">{word}</p>
       <p className="text-2xl font-semibold">{pronunciation}</p>
       <button
