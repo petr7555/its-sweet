@@ -10,10 +10,10 @@ describe('home page', () => {
   })
 
   it('displays two word cards', () => {
-    cy.get('[data-cy="word-card"]').should('have.length', 2)
+    cy.getByTestId('word-card').should('have.length', 2)
 
-    cy.get('[data-cy="word-card"]').first().should('contain.text', 'suite')
-    cy.get('[data-cy="word-card"]').last().should('contain.text', 'sweet')
+    cy.getByTestId('word-card').first().should('contain.text', 'suite')
+    cy.getByTestId('word-card').last().should('contain.text', 'sweet')
   })
 
   it('has no detectable a11y violations on load', () => {
