@@ -1,5 +1,7 @@
 # It's pronounced "sweet"
 
+[![Cypress Tests](https://github.com/petr7555/its-sweet/actions/workflows/main.yml/badge.svg)](https://github.com/petr7555/its-sweet/actions/workflows/main.yml)
+
 See it deployed [here](https://its-sweet.vercel.app/).
 
 ## How to run
